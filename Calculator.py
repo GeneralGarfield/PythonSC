@@ -3,7 +3,7 @@
 # Calc is short for calculator
 # Cant divide by decimals
 # But it can divide by whole numbers
-# Updated some Bugs. It ran addition if you wanted to restart lol
+# Also also. Addition was not working fixed that too!
 
 
 
@@ -34,7 +34,7 @@ def Valid_option_menu():
 
         if try_again == 2:
                         
-            print("exiting.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................")
+            print("Exiting....created by Ricardo Montoya 04/17/2025..................................................See Yah!")
                 
     else:
 
@@ -47,7 +47,7 @@ def values_addition():
     try:
         x = round(int(input("Select your first number: ")))
         y = round(int(input("Select your second number: ")))
-        z = round(x) * round(y)
+        z = round(x) + round(y)
 
 
         if z == z:
@@ -56,7 +56,7 @@ def values_addition():
 
 
     except:
-        print("error")
+        print("Error invalid input.")
         values_addition()
 # ----------------------------------------------------------------------------------------------
 
@@ -78,7 +78,7 @@ def values_subtraction():
 
 
     except:
-        print("error")
+        print("Error invalid input.")
         values_subtraction()
 # ----------------------------------------------------------------------------------------------
 def values_multiplication():
@@ -94,7 +94,7 @@ def values_multiplication():
 
 
     except:
-        print("error")
+        print("Error invalid input.")
         values_multiplication()
 # ----------------------------------------------------------------------------------------------
 def values_division():
@@ -115,7 +115,7 @@ def values_division():
 
 
     except:
-        print("error")
+        print("Error invalid input.")
         values_division()
 # ----------------------------------------------------------------------------------------------
 
