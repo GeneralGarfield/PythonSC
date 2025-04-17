@@ -35,6 +35,8 @@ def Valid_option_menu():
         if try_again == 2:
                         
             print("Exiting....created by Ricardo Montoya 04/17/2025..................................................See Yah!")
+            SystemExit
+            
                 
     else:
 
