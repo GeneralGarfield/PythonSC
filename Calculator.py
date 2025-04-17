@@ -1,4 +1,10 @@
 
+# WOW Calc
+# Calc is short for calculator
+# Cant divide by decimals
+# But it can divide by whole numbers
+
+
 
 x = 1
 
