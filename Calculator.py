@@ -3,6 +3,7 @@
 # Calc is short for calculator
 # Cant divide by decimals
 # But it can divide by whole numbers
+# Updated some Bugs. It ran addition if you wanted to restart lol
 
 
 
@@ -50,7 +51,7 @@ def values_addition():
 
 
         if z == z:
-            print(f"{x} + {y} equal to = {z}")
+            print(f"{x} + {y} equals to = {z}")
             Valid_option_menu()
 
 
@@ -63,12 +64,12 @@ def values_subtraction():
     try:
         x = round(int(input("Select your first number: ")))
         y = round(int(input("Select your second number: ")))
-        z = round(x) * round(y)
+        z = round(x) - round(y)
 
 
 
         if z == z:
-            print(f"{x} - {y} equal to = {z}")
+            print(f"{x} - {y} equals to = {z}")
             Valid_option_menu()
 
         
@@ -78,7 +79,7 @@ def values_subtraction():
 
     except:
         print("error")
-        values_addition()
+        values_subtraction()
 # ----------------------------------------------------------------------------------------------
 def values_multiplication():
     try:
@@ -88,29 +89,34 @@ def values_multiplication():
 
 
         if z == z:
-            print(f"{x} x {y} equal to = {z}")
+            print(f"{x} x {y} equals to = {z}")
             Valid_option_menu()
 
 
     except:
         print("error")
-        values_addition()
+        values_multiplication()
 # ----------------------------------------------------------------------------------------------
 def values_division():
     try:
         x = round(int(input("Select your first number: ")))
         y = round(int(input("Select your second number: ")))
-        z = round(x) * round(y)
+        z = round(x) / round(y)
+
+        try:
+            
+            if z == z:
+                print(f"{x} / {y} equals to = {z}")
+                Valid_option_menu()
 
 
-        if z == z:
-            print(f"{x} / {y} equal to = {z}")
-            Valid_option_menu()
+        except ZeroDivisionError:
+            print("Can't Divide by zero")
 
 
     except:
         print("error")
-        values_addition()
+        values_division()
 # ----------------------------------------------------------------------------------------------
 
 def main():
