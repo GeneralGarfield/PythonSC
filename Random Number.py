@@ -1,3 +1,12 @@
+# Wow another python script!
+# This generates a random number with a given range.
+# Im so proud of myself that i can code faster now.
+# This script a long time ago would have taken me 2 days, but this only took me 10 minutes :D
+# Enjoy
+
+
+
+
 x = 1
 
 y = 1
