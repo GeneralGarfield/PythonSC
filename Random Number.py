@@ -40,7 +40,7 @@ def random_number_main():
 
             random_number = random.randint(user_input, user_input2)
 
-            print(random_number)
+            print(f"Your random number was {random_number}")
 
             Valid_option_menu()
 
@@ -48,7 +48,7 @@ def random_number_main():
 
             random_number = random.randint(user_input, user_input2)
 
-            print(random_number)
+            print(f"Your random number was {random_number}")
 
             Valid_option_menu()
 
